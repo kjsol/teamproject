@@ -12,14 +12,14 @@
 
 ##Files
 
-ChatMessageC2 
+ChatMessageC2                      
   public ChatMessageC2(): 클라이언트 로그인 GUI 생성(로그온 아이디와 메시지 입력하는 필드 생성 등)            
   public void runClient(): socket을 생성하여 서버에 전송                 
   public void actionPerformed(ActionEvent ae)                    
   class WinListener extends WindowAdapter              
   public void keyPressed(KeyEvent ke)                
 
-ChatMessageS2 
+ChatMessageS2                      
   public ChatMessageS2(): 서버 GUI 생성                  
   public void runServer()                    
   class ServerThread extends Thread                      
