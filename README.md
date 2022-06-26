@@ -23,3 +23,5 @@ ChatMessageS2
     public ChatMessageS2(): 서버 GUI 생성                  
     public void runServer()                    
     class ServerThread extends Thread                      
+
+# 팀에 대한 정보를 알려주세요.
